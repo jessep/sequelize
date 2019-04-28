@@ -676,7 +676,7 @@ User.prototype.getFullname = function() {
 };
 
 // Example:
-User.build({ firstname: 'foo', lastname: 'bar' }).getFullname() // 'foo bar'
+new User({ firstname: 'foo', lastname: 'bar' }).getFullname() // 'foo bar'
 ```
 
 ### Indexes
